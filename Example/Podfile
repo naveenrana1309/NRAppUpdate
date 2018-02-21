@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NRAppUpdate_Example' do
+  pod 'NRAppUpdate', :path => '../'
+
+  target 'NRAppUpdate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
