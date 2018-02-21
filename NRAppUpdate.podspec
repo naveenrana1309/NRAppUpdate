@@ -18,7 +18,7 @@ s.summary          = 'NRAppUpdate enables the app to detect whether the new vers
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-NRAppUpdate enables the app to detect whether the new version of the app is available on itunes. For ex: During the launch of the app, it checks for update and shows the update prompt accordingly
+NRAppUpdate enables the app to detect whether the new version of the app is available on itunes. For ex: During the launch of the app, it checks for update and shows the update prompt accordingly. So you just have to use single line of code NRAppUpdate.checkUpdate(for: "---YOUR APP ITUNES ID---") to enable this.
 
 DESC
 
