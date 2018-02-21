@@ -1,0 +1,6 @@
+framework module NRAppUpdate {
+  umbrella header "NRAppUpdate-umbrella.h"
+
+  export *
+  module * { export * }
+}

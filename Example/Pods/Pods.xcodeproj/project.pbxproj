@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D1E85E203D77E70098004A /* NRAppUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1E85D203D77E70098004A /* NRAppUpdate.swift */; };
+		1A7329ECEB4EE7B3C3D44FCC549AE632 /* Pods-NRAppUpdate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F435811323E8C7D92E8EAD5AC04B71B /* Pods-NRAppUpdate_Tests-dummy.m */; };
+		2DD3FDCA699A392231FE46B92983B61E /* NRAppUpdate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EDEF48D41045EAFD319E63B470E278 /* NRAppUpdate-dummy.m */; };
+		538313A1FAF94B9E6231632CCB847EE1 /* NRAppUpdate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EF7222C9C46B9F5FC1343455CF9902 /* NRAppUpdate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		587BF5C5C108ED346CA2602E6669860A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C58F92C277F72057EEBDAD12EB31DA5F /* Pods-NRAppUpdate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 437FAD2686068324B61E4D7707EADF1E /* Pods-NRAppUpdate_Example-dummy.m */; };
+		CD058153A4E9BCB9DCC9E610B98604B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CEAD8A69BB93E05B8E89F61B58D35F8F /* Pods-NRAppUpdate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B31274B2408FE2A999A37F46993C7D9 /* Pods-NRAppUpdate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4AF643C732EDE2D9BE71FEF2AE03C2 /* Pods-NRAppUpdate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CB4F5EC224F5D0951C738304EC875C /* Pods-NRAppUpdate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41215AD7628BB79238C851E577A9FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA84DA36A57B52D4BBD2BACF7000429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DE813FCA750FCFF12F433F73BD87961;
+			remoteInfo = NRAppUpdate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B8EF6490259326A6F55097E6753FDF /* NRAppUpdate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRAppUpdate.xcconfig; sourceTree = "<group>"; };
+		01D1E85D203D77E70098004A /* NRAppUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NRAppUpdate.swift; path = NRAppUpdate/Classes/NRAppUpdate.swift; sourceTree = "<group>"; };
+		1863AB44EEF932AB2D8ED4D99B2D99F2 /* Pods-NRAppUpdate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRAppUpdate_Tests-resources.sh"; sourceTree = "<group>"; };
+		1B31274B2408FE2A999A37F46993C7D9 /* Pods-NRAppUpdate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRAppUpdate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F61D8F557FF2AB8B8F0C3E86FF726FA /* Pods-NRAppUpdate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRAppUpdate_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		24622A45443BE30F59D4017906EE6473 /* Pods-NRAppUpdate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRAppUpdate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		314E06FFBE8A06DBEB22D95EE3435CA2 /* Pods-NRAppUpdate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRAppUpdate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		39B873625B07B21D7FDA28D26F012461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437FAD2686068324B61E4D7707EADF1E /* Pods-NRAppUpdate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRAppUpdate_Example-dummy.m"; sourceTree = "<group>"; };
+		45026A2EFDB4A435CB06876815197EB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4802AFF6CA29D2AD12BDF906A17EF20F /* Pods_NRAppUpdate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRAppUpdate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F17A5790F4859399A02CFD1718BDE90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E62F9F13F9C47CAE0BF0222A2652E1 /* Pods-NRAppUpdate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRAppUpdate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD5352E41B45C56A6D2536D8CDEC354 /* Pods-NRAppUpdate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRAppUpdate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90DB4698398AA1B0A53912DBD4C38361 /* Pods_NRAppUpdate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRAppUpdate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F435811323E8C7D92E8EAD5AC04B71B /* Pods-NRAppUpdate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRAppUpdate_Tests-dummy.m"; sourceTree = "<group>"; };
+		A10C2C4E5D45B6D641C8E289F269F444 /* Pods-NRAppUpdate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRAppUpdate_Example-resources.sh"; sourceTree = "<group>"; };
+		A1BCD253CB84B2BA5D5EA1D2AAF8946F /* NRAppUpdate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRAppUpdate-prefix.pch"; sourceTree = "<group>"; };
+		A7B463F6B57893A79698C6FE0CD7631B /* NRAppUpdate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NRAppUpdate.modulemap; sourceTree = "<group>"; };
+		AB21C4204E6075EEF86E0F9F846DF039 /* Pods-NRAppUpdate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRAppUpdate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B25E8B8C781B5D5E27369B115609DDC8 /* NRAppUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NRAppUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5ABF8C06E7B477EC533F55943D9BE3 /* Pods-NRAppUpdate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NRAppUpdate_Example.modulemap"; sourceTree = "<group>"; };
+		C5A6139F64225AFE1FE0E0929A666E87 /* Pods-NRAppUpdate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRAppUpdate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCA888838CB2237A17B7E541E6D3BCFF /* Pods-NRAppUpdate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRAppUpdate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0E446834C5287CDEBEF8DB7ABDCB9CD /* Pods-NRAppUpdate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRAppUpdate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1EDEF48D41045EAFD319E63B470E278 /* NRAppUpdate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRAppUpdate-dummy.m"; sourceTree = "<group>"; };
+		E7EF7222C9C46B9F5FC1343455CF9902 /* NRAppUpdate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRAppUpdate-umbrella.h"; sourceTree = "<group>"; };
+		F14371851AA70DC24466020E4C52D42B /* Pods-NRAppUpdate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRAppUpdate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F46547D6D64363C49BEBF4E18AD61F7F /* Pods-NRAppUpdate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NRAppUpdate_Tests.modulemap"; sourceTree = "<group>"; };
+		F8CB4F5EC224F5D0951C738304EC875C /* Pods-NRAppUpdate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRAppUpdate_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1669A4C22626E102621401FFDC4CF79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD058153A4E9BCB9DCC9E610B98604B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E64934BA8686BACAC58C5F81144132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587BF5C5C108ED346CA2602E6669860A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B608216B6242C13D1541E2185746FF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41215AD7628BB79238C851E577A9FA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C1CE293E5CBDE218D9F34434D54067 /* NRAppUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				01D1E85D203D77E70098004A /* NRAppUpdate.swift */,
+				4FAA929A74FE8AA3AF12A9F0F3EA354F /* Support Files */,
+			);
+			name = NRAppUpdate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0F92675F1C47B09D1699F6EC6206AB4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA34D5CB5ECD6FA3876EFF6A96B3AB5 /* Pods-NRAppUpdate_Example */,
+				4DDEA3F71711A2230A6626A344A8B2E5 /* Pods-NRAppUpdate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DDEA3F71711A2230A6626A344A8B2E5 /* Pods-NRAppUpdate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39B873625B07B21D7FDA28D26F012461 /* Info.plist */,
+				F46547D6D64363C49BEBF4E18AD61F7F /* Pods-NRAppUpdate_Tests.modulemap */,
+				CCA888838CB2237A17B7E541E6D3BCFF /* Pods-NRAppUpdate_Tests-acknowledgements.markdown */,
+				F14371851AA70DC24466020E4C52D42B /* Pods-NRAppUpdate_Tests-acknowledgements.plist */,
+				9F435811323E8C7D92E8EAD5AC04B71B /* Pods-NRAppUpdate_Tests-dummy.m */,
+				1F61D8F557FF2AB8B8F0C3E86FF726FA /* Pods-NRAppUpdate_Tests-frameworks.sh */,
+				1863AB44EEF932AB2D8ED4D99B2D99F2 /* Pods-NRAppUpdate_Tests-resources.sh */,
+				1B31274B2408FE2A999A37F46993C7D9 /* Pods-NRAppUpdate_Tests-umbrella.h */,
+				AB21C4204E6075EEF86E0F9F846DF039 /* Pods-NRAppUpdate_Tests.debug.xcconfig */,
+				C5A6139F64225AFE1FE0E0929A666E87 /* Pods-NRAppUpdate_Tests.release.xcconfig */,
+			);
+			name = "Pods-NRAppUpdate_Tests";
+			path = "Target Support Files/Pods-NRAppUpdate_Tests";
+			sourceTree = "<group>";
+		};
+		4FAA929A74FE8AA3AF12A9F0F3EA354F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F17A5790F4859399A02CFD1718BDE90 /* Info.plist */,
+				A7B463F6B57893A79698C6FE0CD7631B /* NRAppUpdate.modulemap */,
+				01B8EF6490259326A6F55097E6753FDF /* NRAppUpdate.xcconfig */,
+				D1EDEF48D41045EAFD319E63B470E278 /* NRAppUpdate-dummy.m */,
+				A1BCD253CB84B2BA5D5EA1D2AAF8946F /* NRAppUpdate-prefix.pch */,
+				E7EF7222C9C46B9F5FC1343455CF9902 /* NRAppUpdate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRAppUpdate";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9CA8EBC7D2DF567D78BD45F32E6C07FA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F57940BC858E70660354A3A13C0A0805 /* Products */,
+				0F92675F1C47B09D1699F6EC6206AB4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA34D5CB5ECD6FA3876EFF6A96B3AB5 /* Pods-NRAppUpdate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				45026A2EFDB4A435CB06876815197EB3 /* Info.plist */,
+				BE5ABF8C06E7B477EC533F55943D9BE3 /* Pods-NRAppUpdate_Example.modulemap */,
+				8BD5352E41B45C56A6D2536D8CDEC354 /* Pods-NRAppUpdate_Example-acknowledgements.markdown */,
+				D0E446834C5287CDEBEF8DB7ABDCB9CD /* Pods-NRAppUpdate_Example-acknowledgements.plist */,
+				437FAD2686068324B61E4D7707EADF1E /* Pods-NRAppUpdate_Example-dummy.m */,
+				24622A45443BE30F59D4017906EE6473 /* Pods-NRAppUpdate_Example-frameworks.sh */,
+				A10C2C4E5D45B6D641C8E289F269F444 /* Pods-NRAppUpdate_Example-resources.sh */,
+				F8CB4F5EC224F5D0951C738304EC875C /* Pods-NRAppUpdate_Example-umbrella.h */,
+				70E62F9F13F9C47CAE0BF0222A2652E1 /* Pods-NRAppUpdate_Example.debug.xcconfig */,
+				314E06FFBE8A06DBEB22D95EE3435CA2 /* Pods-NRAppUpdate_Example.release.xcconfig */,
+			);
+			name = "Pods-NRAppUpdate_Example";
+			path = "Target Support Files/Pods-NRAppUpdate_Example";
+			sourceTree = "<group>";
+		};
+		9CA8EBC7D2DF567D78BD45F32E6C07FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CE293E5CBDE218D9F34434D54067 /* NRAppUpdate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F57940BC858E70660354A3A13C0A0805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25E8B8C781B5D5E27369B115609DDC8 /* NRAppUpdate.framework */,
+				90DB4698398AA1B0A53912DBD4C38361 /* Pods_NRAppUpdate_Example.framework */,
+				4802AFF6CA29D2AD12BDF906A17EF20F /* Pods_NRAppUpdate_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0509FE06D68A811FB439254BC6211AE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538313A1FAF94B9E6231632CCB847EE1 /* NRAppUpdate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425C496119B6042C33C794BC7F19740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4AF643C732EDE2D9BE71FEF2AE03C2 /* Pods-NRAppUpdate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5D37F7F47DA1D4D5D41BE037F73D8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD8A69BB93E05B8E89F61B58D35F8F /* Pods-NRAppUpdate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ACA1826B544AD8190108D1241EF7C87 /* Pods-NRAppUpdate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1894BEEE1F724955FAF5C80E5D0D49DD /* Build configuration list for PBXNativeTarget "Pods-NRAppUpdate_Example" */;
+			buildPhases = (
+				EC1E6E2ECEFA8F457A916DDF41F17664 /* Sources */,
+				B608216B6242C13D1541E2185746FF4A /* Frameworks */,
+				4425C496119B6042C33C794BC7F19740 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B0EC00F2C7D06B0899708BC48250D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-NRAppUpdate_Example";
+			productName = "Pods-NRAppUpdate_Example";
+			productReference = 90DB4698398AA1B0A53912DBD4C38361 /* Pods_NRAppUpdate_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DE813FCA750FCFF12F433F73BD87961 /* NRAppUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF88AA8872D8E8C1CD75456E5DC1121 /* Build configuration list for PBXNativeTarget "NRAppUpdate" */;
+			buildPhases = (
+				905463E89467DA82FB2995362DFCCE61 /* Sources */,
+				54E64934BA8686BACAC58C5F81144132 /* Frameworks */,
+				0509FE06D68A811FB439254BC6211AE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRAppUpdate;
+			productName = NRAppUpdate;
+			productReference = B25E8B8C781B5D5E27369B115609DDC8 /* NRAppUpdate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8907B3D6B048B348B7BBEC1DF0D4C8FA /* Pods-NRAppUpdate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5212609DDD1A96BEDE7CBB0EB737A9 /* Build configuration list for PBXNativeTarget "Pods-NRAppUpdate_Tests" */;
+			buildPhases = (
+				DF1D7C1406450B0B91ACD4C00A30D820 /* Sources */,
+				1669A4C22626E102621401FFDC4CF79F /* Frameworks */,
+				4E5D37F7F47DA1D4D5D41BE037F73D8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NRAppUpdate_Tests";
+			productName = "Pods-NRAppUpdate_Tests";
+			productReference = 4802AFF6CA29D2AD12BDF906A17EF20F /* Pods_NRAppUpdate_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F57940BC858E70660354A3A13C0A0805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DE813FCA750FCFF12F433F73BD87961 /* NRAppUpdate */,
+				0ACA1826B544AD8190108D1241EF7C87 /* Pods-NRAppUpdate_Example */,
+				8907B3D6B048B348B7BBEC1DF0D4C8FA /* Pods-NRAppUpdate_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905463E89467DA82FB2995362DFCCE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D1E85E203D77E70098004A /* NRAppUpdate.swift in Sources */,
+				2DD3FDCA699A392231FE46B92983B61E /* NRAppUpdate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1D7C1406450B0B91ACD4C00A30D820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7329ECEB4EE7B3C3D44FCC549AE632 /* Pods-NRAppUpdate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E6E2ECEFA8F457A916DDF41F17664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58F92C277F72057EEBDAD12EB31DA5F /* Pods-NRAppUpdate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79B0EC00F2C7D06B0899708BC48250D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NRAppUpdate;
+			target = 6DE813FCA750FCFF12F433F73BD87961 /* NRAppUpdate */;
+			targetProxy = 9AA84DA36A57B52D4BBD2BACF7000429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E1750336C8BEC4E7C947385E1C2BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB21C4204E6075EEF86E0F9F846DF039 /* Pods-NRAppUpdate_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRAppUpdate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRAppUpdate_Tests/Pods-NRAppUpdate_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRAppUpdate_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1ACC0FCB2277333A9B9E99FD9AD649C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B8EF6490259326A6F55097E6753FDF /* NRAppUpdate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NRAppUpdate/NRAppUpdate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRAppUpdate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRAppUpdate/NRAppUpdate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NRAppUpdate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E9D129B140A60343C44996BDF347E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E62F9F13F9C47CAE0BF0222A2652E1 /* Pods-NRAppUpdate_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRAppUpdate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRAppUpdate_Example/Pods-NRAppUpdate_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRAppUpdate_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F4DA9E57F4EAD4D69D43F520D279B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B8EF6490259326A6F55097E6753FDF /* NRAppUpdate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NRAppUpdate/NRAppUpdate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRAppUpdate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRAppUpdate/NRAppUpdate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NRAppUpdate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9639D161D95F30A31CD4A5FD557384F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A6139F64225AFE1FE0E0929A666E87 /* Pods-NRAppUpdate_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRAppUpdate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRAppUpdate_Tests/Pods-NRAppUpdate_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRAppUpdate_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B99B2AF8119480E883139F6F09345217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314E06FFBE8A06DBEB22D95EE3435CA2 /* Pods-NRAppUpdate_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRAppUpdate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRAppUpdate_Example/Pods-NRAppUpdate_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRAppUpdate_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1894BEEE1F724955FAF5C80E5D0D49DD /* Build configuration list for PBXNativeTarget "Pods-NRAppUpdate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9D129B140A60343C44996BDF347E97 /* Debug */,
+				B99B2AF8119480E883139F6F09345217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5212609DDD1A96BEDE7CBB0EB737A9 /* Build configuration list for PBXNativeTarget "Pods-NRAppUpdate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E1750336C8BEC4E7C947385E1C2BE7 /* Debug */,
+				9639D161D95F30A31CD4A5FD557384F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF88AA8872D8E8C1CD75456E5DC1121 /* Build configuration list for PBXNativeTarget "NRAppUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ACC0FCB2277333A9B9E99FD9AD649C2 /* Debug */,
+				59F4DA9E57F4EAD4D69D43F520D279B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

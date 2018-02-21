@@ -1,0 +1,22 @@
+{
+  "name": "NRAppUpdate",
+  "version": "0.1.0",
+  "summary": "A short description of NRAppUpdate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/naveenrana1309/NRAppUpdate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "naveenrana1309": "naveenrana1309@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/naveenrana1309/NRAppUpdate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NRAppUpdate/Classes/**/*"
+}

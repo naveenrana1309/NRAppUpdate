@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import NRAppUpdate
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        NRAppUpdate.checkUpdate(for: "---YOUR APP ITUNES ID---")
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

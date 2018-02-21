@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D1E860203D81BA0098004A /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D1E85F203D81BA0098004A /* sample.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,9 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D1E85F203D81BA0098004A /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = SOURCE_ROOT; };
 		02F589F5ADC93696F3C97E01 /* Pods-NRAppUpdate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAppUpdate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRAppUpdate_Example/Pods-NRAppUpdate_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0536A26F912A8410BCB854F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1FB5A7BB0192A8D74B564376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0536A26F912A8410BCB854F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1FB5A7BB0192A8D74B564376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3612F6CB3C8D9142FAEC9FDD /* Pods_NRAppUpdate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRAppUpdate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		468DD08F43C54692A06146AB /* Pods-NRAppUpdate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAppUpdate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRAppUpdate_Tests/Pods-NRAppUpdate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NRAppUpdate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRAppUpdate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +45,7 @@
 		607FACE51AFB9204008FA782 /* NRAppUpdate_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRAppUpdate_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		72D934172DD6A1BC3F077B56 /* NRAppUpdate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NRAppUpdate.podspec; path = ../NRAppUpdate.podspec; sourceTree = "<group>"; };
+		72D934172DD6A1BC3F077B56 /* NRAppUpdate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NRAppUpdate.podspec; path = ../NRAppUpdate.podspec; sourceTree = "<group>"; };
 		833E01D0A1C8F6DCD289655D /* Pods_NRAppUpdate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRAppUpdate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1516BBC6418E49147597017 /* Pods-NRAppUpdate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAppUpdate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRAppUpdate_Example/Pods-NRAppUpdate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E0F47910937B2BBE39A7F612 /* Pods-NRAppUpdate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAppUpdate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRAppUpdate_Tests/Pods-NRAppUpdate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				01D1E85F203D81BA0098004A /* sample.png */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for NRAppUpdate";
@@ -251,6 +254,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				01D1E860203D81BA0098004A /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
