@@ -8,8 +8,10 @@
 
 Pod::Spec.new do |s|
 s.name             = 'NRAppUpdate'
-s.version          = '0.1.0'
+s.version          = '1.0.0'
 s.summary          = 'NRAppUpdate enables the app to detect whether the new version of the app is available on itunes.'
+s.swift_version    = '4.0'
+
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +20,7 @@ s.summary          = 'NRAppUpdate enables the app to detect whether the new vers
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-NRAppUpdate enables the app to detect whether the new version of the app is available on itunes. For ex: During the launch of the app, it checks for update and shows the update prompt accordingly. So you just have to use single line of code NRAppUpdate.checkUpdate(for: "---YOUR APP ITUNES ID---") to enable this.
-
+NRAppUpdate enables the app to detect whether the new version of the app is available on AppStore. For ex: During the launch of the app, it checks for update and shows the prompt accordingly. So you just have to use single line of code NRAppUpdate.checkUpdate(for: "---YOUR APP ITUNES ID---") to enable this.
 DESC
 
 s.homepage         = 'https://github.com/naveenrana1309/NRAppUpdate'
@@ -30,7 +31,7 @@ s.source           = { :git => 'https://github.com/naveenrana1309/NRAppUpdate.gi
 
 #s.social_media_url = 'https://www.facebook.com/iOSByHeart/'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 
 s.source_files = 'NRAppUpdate/Classes/**/*'
 

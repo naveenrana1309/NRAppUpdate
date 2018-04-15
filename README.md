@@ -38,6 +38,7 @@ super.viewDidLoad()
 // Do any additional setup after loading the view, typically from a nib.
 NRAppUpdate.checkUpdate(for: "---YOUR APP ITUNES ID---")
 
+//Your app id--  Just check the itunes url of your app "https://itunes.apple.com/in/app/myapp/id284882915?mt=8"  and here is your app itunes id 284882915 
 
 }
 ```
